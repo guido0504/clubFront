@@ -1,0 +1,312 @@
+/* Logo */
+.contenedor-portada {
+    display: flex;               /* Usa Flexbox para alinear elementos hijos */
+    justify-content: left;       /* Alinea los elementos hijos (logo, texto) a la izquierda */
+    align-items: center;         /* Centra los elementos hijos verticalmente */
+    background-color: #003a0d; 
+    padding: 0px;                
+    width: 100%;                 /* El contenedor ocupa el 100% del ancho disponible */
+}
+
+.contenedor-portada img {
+    max-width: 100%;             /* Asegura que la imagen no se salga de su contenedor */
+    height: auto;                /* Mantiene la relación de aspecto de la imagen */
+    display: block;              /* Elimina cualquier espacio extra debajo de la imagen */
+}
+
+.logo-nuevo {
+    display: flex;               /* Usa Flexbox para alinear contenido dentro del logo */
+    align-items: center;         /* Centra los elementos hijos verticalmente */
+    justify-content: center;     /* Centra los elementos hijos horizontalmente */
+    width: 145px;                 /* Fija el ancho del logo */
+    height: auto;                /* Mantiene la relación de aspecto */
+    margin: 1%;
+}
+
+
+/* Texto que acompaña al logo */
+.texto-logo {
+    text-transform: uppercase;   /* Convierte todo el texto a mayúsculas */
+    color: #f0f0f0;    
+    text-align: center;   
+    white-space: nowrap;  
+    max-width: 100%;
+}
+
+.texto-logo h1 {
+    font-size: clamp(2rem, 5vw, 3rem); /* Fuente responsiva */
+    margin: 0;                   
+    line-height: 1.2em;          /* Fija la altura de la línea del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Añade sombra de texto */
+}
+
+.texto-logo .primera-linea, .texto-logo .segunda-linea span {
+    /* Asegura que cada línea se comporte como un bloque para el salto de línea */
+    display: block; 
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade-up 1s ease-out forwards, resplandor-loop 2s ease-in-out 1.5s infinite;
+}
+
+.texto-logo .segunda-linea span {
+    font-size: clamp(1.6rem, 4vw, 2.4rem); /* Fuente responsiva para el span */
+    font-weight: normal;
+    margin-top: -0.2em;
+    animation-delay: 0.5s, 2s; /* Retrasa la animación del span */
+}
+
+
+.texto-logo h1 span {
+    display: block;              /* Convierte el span en un elemento de bloque (salto de línea) */
+    font-size: 0.8em;
+    font-weight: normal;         /* Fija el peso de la fuente a normal (no negrita) */
+    margin-top: -0.2em;          /* Mueve el texto hacia arriba para reducir el espacio */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Iconos RRSS */
+.social-icons {
+    display: flex;               /* Usa Flexbox para alinear los iconos */
+    gap: 1rem;                   /* Define el espacio entre los iconos */
+    justify-content: right;      /* Alinea los iconos a la derecha del contenedor */
+    align-items: center;         /* Centra los iconos verticalmente */
+    background-color: #003a0d; /* Establece el color de fondo */
+    padding: 0px 1%;                
+    width: 100%;                 /* El contenedor ocupa el 100% del ancho */
+}
+
+.social-icons img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;              /* Hace que la imagen sea un círculo */
+    transition: transform 0.3s ease; /* Suaviza el efecto de transformación en 0.3s */
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);        /* Aumenta el tamaño de la imagen en un 10% */
+}
+
+
+@media (max-width: 768px) {
+    .texto-logo h1 {
+        font-size: 2.2rem;
+    }
+
+    .texto-logo .segunda-linea span {
+        font-size: 1.8rem;
+        display: block; /* Mantiene el span como bloque en móviles para mejor legibilidad */
+    }
+
+
+    .contenedor-portada, .texto-logo, .social-icons {
+        margin: 0px 0;            /* Cambia el margen para separarlos verticalmente */
+        width: 100%;               /* Los elementos ocupan todo el ancho */
+        flex-direction: column;    /* Cambia la dirección de Flexbox a vertical (en columna) */
+        width: 100%;                /* Aumenta el ancho a 95% para ocupar más espacio en móvil */
+        padding: 15px;
+    }
+}
+
+
+
+/* Animación para el texto */
+.animacion-resplandor {
+    animation: solo-resplandor 2s ease-in-out infinite;
+    opacity: 0;                                         /* Oculta el elemento al inicio de la animación */
+    transform: translateY(20px);                        /* Lo mueve 20px hacia abajo */
+    animation: fade-up 1s ease-out forwards;            /* Inicia la animación de desvanecimiento */
+}
+
+@keyframes solo-resplandor {
+    0% {
+        box-shadow: 0 0 8px rgba(50, 200, 0, 0.4);    /* Sombra inicial con resplandor suave */
+    }
+    50% {
+        box-shadow: 0 0 15px rgba(50, 200, 0, 0.8), 0 0 20px rgba(50, 200, 0, 0.6);  /* Sombra más intensa */
+    }
+    100% {
+        box-shadow: 0 0 8px rgba(50, 200, 0, 0.4);    /* Regresa al estado inicial */
+    }
+}
+
+@keyframes fade-up {
+    to {
+        opacity: 1;                /* Al final, la opacidad es 100% (visible) */
+        transform: translateY(0);  /* Lo mueve de vuelta a su posición original */
+    }
+}
+
+@keyframes resplandor-loop {
+    0%, 100% {
+        text-shadow: 0 0 4px rgba(50, 200, 0, 0.2);  /* Sombra inicial y final con resplandor */
+    }
+    50% {
+        text-shadow: 0 0 8px rgba(50, 200, 0, 0.4), 0 0 10px rgba(50, 200, 0, 0.3);   /* Resplandor más fuerte */
+    }
+}
+
+.primera-linea, .segunda-linea {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade-up 1s ease-out forwards, resplandor-loop 2s ease-in-out 1.5s infinite;
+}
+
+.segunda-linea {
+    animation-delay: 0.5s, 2s;   /* Retrasa la animación de entrada y el loop */
+}
+
+header {
+    background-color: #003a0d;
+    padding: 7px;
+}
+
+
+@media (max-width: 640px) {
+    .header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .header-title {
+        font-size: 1.5rem;   /* Reduce el tamaño de la fuente */
+        margin-bottom: 1rem; /* Añade margen en la parte inferior */
+    }
+    .menu {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 1rem;
+            }
+            .menu > ul {
+                flex-direction: column;
+                width: 100%;
+            }
+            .menu > ul > li {
+                width: 100%;
+            }
+            .menu > ul > li > a {
+                padding: 10px 15px;
+            }
+            .submenu {
+                position: static;
+                width: 100%;
+            }
+            /* Eliminamos la posición absoluta para móviles también */
+            .login-icon-container {
+                margin-top: 1rem;
+                position: static;
+            }
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Mueve los extremos al inicio y al final */
+    align-items: center; /* Centra los elementos verticalmente */
+    background-color: rgba(26, 103, 0, 0.307);
+    margin: 0;
+    padding: 0 20px; /* Agrego padding para que no se pegue a los bordes */
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: transparent;
+}
+
+.menu > ul > li {
+    position: relative;
+}
+
+.menu > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+.menu > ul > li:hover {
+    background-color: #bb0919;
+    border-radius: 20px;
+}
+
+.submenu {
+    display: none;                 /* Inicialmente oculto */
+    position: absolute;
+    top: 100%;                     /* Se coloca justo debajo del elemento padre */
+    left: 0;                       /* Se alinea a la izquierda del elemento padre */
+    background-color: #003a0d;
+    list-style: none;              /* Sin puntos en la lista */
+    padding: 0;
+    margin: 0;
+    min-width: 100%;               /* Ancho mínimo igual al del padre */
+    z-index: 1000;                 /* Se asegura de que esté por encima de otros elementos */
+    font-size: 1.3rem;
+}
+
+.submenu > li:hover {
+    background-color: #bb0919;
+    border-radius: 20px;
+}
+
+.menu > ul > li:hover .submenu {
+    display: block;   /* Muestra el submenú cuando se pasa el cursor sobre el elemento padre */
+}
+
+.submenu li a {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.login-icon-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;  
+    bottom: 2rem;              /* Distancia desde el borde inferior */
+    right: 2rem;               /* Distancia desde el borde derecho */
+    transition: transform 0.3s ease-in-out;
+    border-radius: 50%;
+    box-shadow: 0 6px 12px -2px var(--shadow-color);
+}
+
+.login-icon-container:hover {
+    transform: scale(1.1);
+}
+
+.login-icon-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--icon-bg-color);
+    border: 2px solid var(--border-color);
+    text-decoration: none;
+    color: var(--icon-color);
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.login-icon-container a:hover, .login-icon-container a:focus {
+    background-color: rgba(50, 200, 0, 0.2);
+    outline: none;
+}
+
+.login-icon-container svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: currentColor;
+}

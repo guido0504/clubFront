@@ -1,0 +1,16 @@
+<!-- La directiva @if evalúa la señal que creamos. Si es true, muestra el header. -->
+@if (showHeaderAndFooter()) {
+<app-header></app-header>
+}
+
+<main>
+    <!-- Acá se carga el contenido de la página actual (login, inicio, noticias, etc.) -->
+    <router-outlet></router-outlet>
+</main>
+
+<!-- Si la señal es true, también muestra el footer. -->
+@if (showHeaderAndFooter()) {
+<app-footer></app-footer>
+
+}
+

@@ -1,0 +1,175 @@
+:root {
+    --primary-color: #f5f5f5; /* Color del texto */
+            --secondary-color: #6b7280; /* Color del texto secundario */
+            --accent-color: #bb0919; /* Color de botones y elementos de acento */
+            --background-color: #003a0d; /* Fondo principal */
+            --card-bg: rgba(255, 255, 255, 0.2); /* Fondo de la tarjeta translúcido */
+            --border-color: rgba(255, 255, 255, 0.537); /* Color del borde translúcido */
+            --shadow-color: rgba(0, 0, 0, 0.15); /* Sombra de la tarjeta (ajustado para ser más visible) */
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #49ff71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-image: url('https://placehold.co/1920x1080/003a0d/003a0d?text=');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+/* Nuevo contenedor para apilar el logo y el formulario. */
+/* display: flex; flex-direction: column; hace que los elementos se apilen verticalmente. */
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;           /* Centra los elementos hijos horizontalmente */
+    justify-content: center;
+    gap: 2rem;                     /* Espacio entre el logo y el formulario */
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.logo-nuevo {
+    width: 145px;                 /* Fija el ancho del logo */
+    height: auto;                 /* Mantiene la relación de aspecto */
+    margin: 1%;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: var(--card-bg);
+    backdrop-filter: blur(10px);          /* Estilo más moderno */
+    -webkit-backdrop-filter: blur(10px);  /* Estilo más moderno */
+    padding: 2rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px var(--shadow-color), 0 4px 6px -2px var(--shadow-color);
+    text-align: center;
+    border: 1px solid var(--border-color);
+}
+
+.login-header {
+    margin-bottom: 2rem;
+}
+
+.login-header h1 {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1.875rem;
+    margin-bottom: 0.2rem;
+}
+
+.login-header p {
+    color: rgba(245, 245, 245, 0.688);
+    font-size: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: var(--primary-color);
+    background-color: antiquewhite;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input::placeholder {
+    color: var(--secondary-color);
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(59, 131, 246, 0.489);
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgba(25, 141, 12, 0.426);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.125rem;
+    transition: background-color 0.3s, transform 0.1s;
+    margin-bottom: 0.75rem; /* Espacio entre login y el siguiente botón */
+
+}
+
+.login-button:hover {
+    background-color: #bb0919;
+}
+
+.login-button:active {
+    transform: scale(0.99);
+}
+
+.forgot-password {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
+.forgot-password a {
+    color: rgba(245, 245, 245, 0.688);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+/* Estilos para el nuevo botón de regresar */
+.back-button {
+    margin-top: 21px; /* Espacio extra arriba */
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    line-height: normal;
+    padding: 0.75rem;
+    background-color: rgba(25, 141, 12, 0.426);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.125rem;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.back-button:hover {
+    background-color: #bb0919;
+}
+
+.back-button:active {
+    transform: scale(0.99);
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        padding: 2rem 1.5rem;
+    }
+}
