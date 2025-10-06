@@ -1,0 +1,73 @@
+.actividad {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.contenido-principal {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contenido-principal img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.info {
+  flex: 1;
+  font-size: 16px;
+}
+
+video {
+  max-width: 100%;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.boton-inscribirse {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.boton-inscribirse:hover {
+  background-color: #005fa3;
+}
+
+.reglas, .galeria, .testimonios {
+  margin-top: 30px;
+}
+
+.reglas ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.galeria .imagenes {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.galeria img {
+  width: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.testimonios .mensaje {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}

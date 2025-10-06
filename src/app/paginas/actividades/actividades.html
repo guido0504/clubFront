@@ -1,0 +1,38 @@
+<div class="actividad">
+  <h2>{{ actividad?.titulo }}</h2>
+
+  <div class="contenido-principal">
+    <img [src]="actividad?.imagen" alt="{{ actividad?.titulo }}" />
+    <div class="info">
+      <p><strong>Días y horarios:</strong> {{ actividad?.horario }}</p>
+      <p><strong>Profesor/a:</strong> {{ actividad?.profesor }}</p>
+    </div>
+  </div>
+
+  <video *ngIf="actividad?.video" [src]="actividad?.video" controls></video>
+
+  <a *ngIf="actividad?.inscripcion" [href]="actividad?.inscripcion" target="_blank" class="boton-inscribirse">
+    Inscribirme
+  </a>
+
+  <div class="reglas" *ngIf="actividad?.reglas?.length">
+    <h3>Reglas del juego</h3>
+    <ul>
+      <li *ngFor="let regla of actividad.reglas">{{ regla }}</li>
+    </ul>
+  </div>
+
+  <div class="galeria" *ngIf="actividad?.galeria?.length">
+    <h3>Galería</h3>
+    <div class="imagenes">
+      <img *ngFor="let foto of actividad.galeria" [src]="foto" alt="Foto vóley" />
+    </div>
+  </div>
+
+  <div class="testimonios" *ngIf="actividad?.testimonios?.length">
+    <h3>Testimonios</h3>
+    <div class="mensaje" *ngFor="let t of actividad.testimonios">
+      <p><strong>{{ t.nombre }}:</strong> "{{ t.mensaje }}"</p>
+    </div>
+  </div>
+</div>

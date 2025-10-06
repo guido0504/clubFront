@@ -1,7 +1,7 @@
 <div class="contenedor-portada">    
     <div class="logo-nuevo">   <!-- Contenedor Logo -->
         <a href="#" (click)="('/')">  <!-- Click en el logo para regresar a Inicio -->
-            <img src="./img/logoNuevo2.png" alt="logo centro de fomento" class="animacion-resplandor">
+            <img src="./logoNuevo2.png" alt="logo centro de fomento" class="animacion-resplandor">
         </a>
     </div> 
     
@@ -16,13 +16,13 @@
     
     <div class="social-icons">   <!-- Contenedor iconos redes sociales -->
         <a href="https://www.facebook.com/centrodefomentovillaelviraoficial" target="_blank" class="social-icon" aria-label="Facebook">
-            <img src="./img/icons8-facebook-120.png" alt="Icono de Facebook">
+            <img src="./social-icons/icons8-facebook-120.png" alt="Icono de Facebook">
         </a>
         <a href="https://www.instagram.com/centrodefomentovillaelvira/" target="_blank" class="social-icon" aria-label="Instagram">
-            <img src="./img/icons8-instagram-120.png" alt="Icono de Instagram">
+            <img src="./social-icons/icons8-instagram-120.png" alt="Icono de Instagram">
         </a>
         <a href="#" class="social-icon" aria-label="WhatsApp">
-            <img src="./img/icons8-whatsapp-120.png" alt="Icono de WhatsApp">
+            <img src="./social-icons/icons8-whatsapp-120.png" alt="Icono de WhatsApp">
         </a>
     </div>
 </div>
@@ -38,13 +38,22 @@
             <li><a routerLink="/socio">Socio</a></li>
             <li><a routerLink="/">Actividades▾</a>
                 <ul class="submenu">
-                    <li><a routerLink="/voley">Voley</a></li>
-                    <li><a routerLink="/boxeo">Boxeo</a></li>
-                    <li><a routerLink="/futbol">Futbol</a></li>
-                    <li><a routerLink="/tango">Tango</a></li>
-                    <li><a routerLink="/taller-de-lectura">Taller de lectura</a></li>
-                    <li><a routerLink="/artes-marciales">Artes Marciales</a></li>
-                    <li><a routerLink="/patin">Patin</a></li>
+                    <!-- *** Por si necesito ver algo para el CSS 
+                    <li><a routerLink="/voley">Voley</a></li> // Antiguo
+                    <li><a routerLink="/boxeo">Boxeo</a></li> // Antiguo
+                    <li><a routerLink="/futbol">Futbol</a></li> // Antiguo
+                    <li><a routerLink="/tango">Tango</a></li> // Antiguo
+                    <li><a routerLink="/artes-marciales">Artes Marciales</a></li> // Antiguo
+                    <li><a routerLink="/taller-de-lectura">Taller de lectura</a></li> // Antiguo
+                    <li><a routerLink="/patin">Patin</a></li> // Antiguo -->
+
+                    <li><a [routerLink]="['/actividades', 'voley']">Vóley</a></li>
+                    <li><a [routerLink]="['/actividades', 'boxeo']">Boxeo</a></li>
+                    <li><a [routerLink]="['/actividades', 'futbol']">Fútbol</a></li>
+                    <li><a [routerLink]="['/actividades', 'tango']">Tango</a></li>
+                    <li><a [routerLink]="['/actividades', 'taller-de-lectura']">Taller de lectura</a></li>
+                    <li><a [routerLink]="['/actividades', 'artes-marciales']">Artes Marciales</a></li>
+                    <li><a [routerLink]="['/actividades', 'patin']">Patín</a></li>       
                 </ul>
             </li>
             <li><a routerLink="/salud">Salud</a></li>
