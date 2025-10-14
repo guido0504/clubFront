@@ -1,0 +1,14 @@
+<p-table [value]="listEvento" [tableStyle]="{ 'min-width': '50rem' }">
+    <ng-template #header>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+        </tr>
+    </ng-template>
+    <ng-template #body let-evento>
+        <tr>
+            <td>{{ evento.id }}</td>
+            <td>{{ evento.nombre }}</td>
+        </tr>
+    </ng-template>
+</p-table>

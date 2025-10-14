@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Eventos } from './eventos';
+import { ListView } from './list-view';
 
-describe('Eventos', () => {
-  let component: Eventos;
-  let fixture: ComponentFixture<Eventos>;
+describe('ListView', () => {
+  let component: ListView;
+  let fixture: ComponentFixture<ListView>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Eventos]
+      imports: [ListView]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Eventos);
+    fixture = TestBed.createComponent(ListView);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
