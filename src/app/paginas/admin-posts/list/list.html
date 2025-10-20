@@ -1,0 +1,29 @@
+<div class="admin-publicaciones">
+    <div class="encabezado">
+        <h2>Administración de Publicaciones</h2>
+        <button class="crear-btn" [routerLink]="['new']">+ Nueva publicación</button>
+    </div>
+
+    <div class="filtros">
+        <label for="filtro">Filtrar por categoría:</label>
+        <select id="filtro" [(ngModel)]="filtroSeleccionado">
+            <option *ngFor="let sec of secciones" [value]="sec">{{ sec | uppercase }}</option>
+        </select>
+    </div>
+
+    <div class="lista-publicaciones">
+        <div class="publicacion-card" *ngFor="let post of filteredPosts">
+            <h3 class="titulo">{{ post.title }}</h3>
+            <p class="categoria">Categoría: {{ post.section }}</p>
+            <p class="resumen" [innerHTML]="post.body | slice:0:150"></p>
+            <div class="acciones">
+                <button class="editar-btn" [routerLink]="['edit', post.id]">Editar</button>
+                <button class="eliminar-btn" (click)="deletePost(post.id)">Eliminar</button>
+            </div>
+        </div>
+        
+        <div *ngIf="filteredPosts.length === 0" class="publicacion-card">
+            <p>No hay publicaciones para mostrar en esta sección.</p>
+        </div>
+    </div>
+</div>

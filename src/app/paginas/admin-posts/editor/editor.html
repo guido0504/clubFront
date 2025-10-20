@@ -1,0 +1,50 @@
+<div class="cms-editor-container">
+    <h2>{{ isEditMode ? 'Editar Publicación' : 'Crear Nueva Publicación' }}</h2>
+    <hr>
+
+    <form [formGroup]="postForm" (ngSubmit)="onSubmit()">
+        
+        <label for="title" class="form-label">Título</label>
+        <input type="text" id="title" formControlName="title" class="form-control" placeholder="Escribí el título..." />
+        <div *ngIf="postForm.get('title')?.invalid && postForm.get('title')?.touched" class="text-danger">
+            El título es obligatorio.
+        </div>
+
+        <label for="section" class="form-label">Categoría</label>
+        <select id="section" formControlName="section" class="form-select">
+            <option value="" disabled>Selecciona la sección</option>
+            <option *ngFor="let sec of secciones" [ngValue]="sec">{{ sec | uppercase }}</option>
+        </select>
+        <div *ngIf="postForm.get('section')?.invalid && postForm.get('section')?.touched" class="text-danger">
+            Debes seleccionar una categoría.
+        </div>
+
+        <label for="body" class="form-label">Contenido</label>
+        <textarea id="body" formControlName="body" class="form-control" rows="10" placeholder="Escribí el texto..."></textarea>
+        <div *ngIf="postForm.get('body')?.invalid && postForm.get('body')?.touched" class="text-danger">
+            El contenido es obligatorio.
+        </div>
+
+        <label for="image" class="form-label">Imagen Principal</label>
+        <input type="file" id="image" class="form-file" (change)="onFileChange($event, 'imageUrl')" />
+        <div *ngIf="postForm.get('imageUrl')?.value" class="mb-2">
+            <p>Imagen actual:</p>
+            <img [src]="postForm.get('imageUrl')?.value" alt="Preview" class="preview-img">
+            <input type="hidden" formControlName="imageUrl">
+        </div>
+        
+        <label for="video" class="form-label">Video Adjunto</label>
+        <input type="file" id="video" class="form-file" (change)="onFileChange($event, 'videoUrl')" />
+        <div *ngIf="postForm.get('videoUrl')?.value" class="mb-2">
+            <p>URL de Video simulada: {{ postForm.get('videoUrl')?.value | slice:0:30 }}...</p>
+            <input type="hidden" formControlName="videoUrl">
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn-publicar" [disabled]="postForm.invalid">
+                {{ isEditMode ? 'Guardar Cambios' : 'Publicar' }}
+            </button>
+            <a [routerLink]="['/admin/posts']" class="btn-cancelar">Cancelar</a>
+        </div>
+    </form>
+</div>

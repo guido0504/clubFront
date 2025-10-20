@@ -1,0 +1,99 @@
+{
+  "posts": [
+    {
+      "title": "Gran Torneo de Vóley Femenino: ¡Somos Campeones!",
+      "body": "Estamos orgullosos de anunciar que nuestro equipo de Vóley Femenino sub-18 ganó la copa del torneo regional. Fue un partido vibrante y la hinchada del Centro de Fomento Villa Elvira fue fundamental. <br><br> **¡Felicitaciones a las chicas y a todo el cuerpo técnico!**",
+      "section": "Noticias",
+      "imageUrl": "http://localhost:3000/voley/centro-fomento-villa-elvira_voley3.jpg",
+      "videoUrl": null,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Abierta la Inscripción para Boxeo Amateur - Nuevo Horario",
+      "body": "A partir de este mes, abrimos nuevos cupos para las clases de Boxeo Amateur y Recreativo. Las clases serán lunes y miércoles de 18:00 a 20:00 hs en el gimnasio principal. Recordá traer tu certificado médico. <br><br> ¡Te esperamos para entrenar con el Profe Martín!",
+      "section": "Actividades",
+      "imageUrl": "http://localhost:3000/boxeo/centro-fomento-villa-elvira_boxeo2.jpg",
+      "videoUrl": null,
+      "createdAt": "2025-10-14T15:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Campaña Solidaria: Abrigo para el Invierno",
+      "body": "Invitamos a todos los socios y vecinos a participar en nuestra campaña anual de recolección de ropa de abrigo. Estaremos recibiendo donaciones en la secretaría del club desde el 1 al 15 de Mayo. <br> **¡Tu ayuda es fundamental para la comunidad!**",
+      "section": "Eventos",
+      "imageUrl": "http://localhost:3000/public/logoNuevo2.png",
+      "videoUrl": null,
+      "createdAt": "2025-10-12T09:10:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Danza Clásica y Contemporánea: ¡Muestra de Fin de Año!",
+      "body": "Las alumnas del taller de Danza se preparan para su gran función anual. La muestra se realizará el 1 de diciembre a las 20:30 en el teatro municipal. Entradas a la venta en el club. No te lo pierdas.",
+      "section": "Actividades",
+      "imageUrl": "https://picsum.photos/300/200?random=4",
+      "videoUrl": null,
+      "createdAt": "2025-10-10T18:45:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Asamblea Extraordinaria de Socios 2025",
+      "body": "Se convoca a la Asamblea General Extraordinaria de Socios para el tratamiento de la renovación de autoridades. La reunión se llevará a cabo el próximo 20 de noviembre a las 19:00 hs. Se ruega puntualidad. <br> Consultar padrón en la web institucional.",
+      "section": "Institucional",
+      "imageUrl": null,
+      "videoUrl": null,
+      "createdAt": "2025-10-05T08:00:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Recordatorio: Cuota Social de Octubre Vence Próximamente",
+      "body": "Se recuerda a todos los socios que la cuota social del mes de octubre vence el día 15. Podés pagar online o en secretaría. Mantené tu cuota al día para disfrutar de todos los beneficios.",
+      "section": "Institucional",
+      "imageUrl": null,
+      "videoUrl": null,
+      "createdAt": "2025-10-01T11:00:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Clínica de Patín Artístico con Campeones Nacionales",
+      "body": "Tenemos el honor de recibir a patinadores profesionales que brindarán una clínica intensiva este sábado por la mañana. ¡Una oportunidad única para nuestras jóvenes!",
+      "section": "Eventos",
+      "imageUrl": "http://localhost:3000/patin/Patín.mp4",
+      "videoUrl": "http://localhost:3000/patin/Patín.mp4",
+      "createdAt": "2025-09-28T14:00:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Noticia de Último Momento: Renovación de Luminarias",
+      "body": "Gracias a un esfuerzo conjunto, hemos finalizado la instalación de luminarias LED en la cancha de fútbol 5. Esto nos permitirá extender los horarios de entrenamiento nocturno.",
+      "section": "Noticias",
+      "imageUrl": "https://picsum.photos/300/200?random=8",
+      "videoUrl": null,
+      "createdAt": "2025-09-25T17:00:00Z"
+    },
+    {
+      "id": 9,
+      "title": "Taller de Yoga para Socios Jubilados",
+      "body": "Iniciamos un nuevo taller de Yoga adaptado para la tercera edad. Martes y jueves a las 10:00 hs. Cupos limitados. ¡Inscribite ya en la secretaría!",
+      "section": "Actividades",
+      "imageUrl": "https://picsum.photos/300/200?random=9",
+      "videoUrl": null,
+      "createdAt": "2025-09-20T09:30:00Z"
+    },
+    {
+      "id": 10,
+      "title": "Noche de Peñas y Folklore - Gran Cena Show",
+      "body": "El próximo viernes celebraremos una noche cultural con música en vivo, baile y una cena tradicional. Retirá tu tarjeta en el buffet del club. ¡No faltes!",
+      "section": "Eventos",
+      "imageUrl": "https://picsum.photos/300/200?random=10",
+      "videoUrl": null,
+      "createdAt": "2025-09-18T21:00:00Z"
+    }
+  ],
+  "sections": [
+    "Noticias",
+    "Eventos",
+    "Actividades",
+    "Institucional"
+  ]
+}
