@@ -27,6 +27,26 @@ const angularApp = new AngularNodeAppEngine();
 /**
  * Serve static files from /browser
  */
+// En la vida real, esta función debe hacer una llamada a tu API o base de datos
+// para obtener la lista real de IDs de actividades.
+// Por ahora, usamos un ejemplo.
+
+export async function getPrerenderParams() {
+  console.log('--- Generando parámetros de prerenderizado para actividades ---');
+  
+  // *** REEMPLAZA ESTA LÓGICA DE EJEMPLO ***
+  // Lógica de ejemplo: simula obtener los IDs 1, 2 y 3.
+  const activityIds = [1, 2, 3];
+  // ***************************************
+
+  // El formato debe ser un arreglo de objetos, donde la clave es el nombre del parámetro de ruta (:id)
+  // y el valor es el ID.
+  const params = activityIds.map((id) => ({
+    id: id.toString(),
+  }));
+
+  return params;
+}
 app.use(
   express.static(browserDistFolder, {
     maxAge: '1y',
