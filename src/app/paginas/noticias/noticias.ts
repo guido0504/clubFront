@@ -66,13 +66,11 @@ export class Noticias implements AfterViewInit {
     const imagenSrc = article.querySelector('img')?.src || '';
     const parrafo = article.querySelector('p')?.textContent || '';
     
-    // Contenido de ejemplo más largo (opcional)
-    const parrafoLargo = `${parrafo} Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac mauris eget nisi vestibulum congue. Phasellus viverra quam vel odio facilisis, vel congue erat mattis. Ut ut erat sit amet nunc fermentum malesuada. Fusce non elit vel quam tristique feugiat. Aliquam erat volutpat. Proin aliquet metus a odio tempor, ut gravida metus iaculis. Etiam eget ex at libero pharetra pulvinar. Nullam in lacus vel justo euismod feugiat. Sed euismod, massa sit amet tempor posuere, massa felis lacinia sapien, vel tincidunt mauris nulla nec nisl.`;
-
+    
     // Rellenar y mostrar el modal
     this.modalTituloRef.nativeElement.textContent = titulo;
     this.modalImagenRef.nativeElement.src = imagenSrc;
-    this.modalParrafoRef.nativeElement.textContent = parrafoLargo;
+    this.modalParrafoRef.nativeElement.textContent = parrafo;
     this.modalOverlayRef.nativeElement.style.display = 'flex';
   }
 
