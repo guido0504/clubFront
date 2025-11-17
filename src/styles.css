@@ -13,3 +13,38 @@ img{
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.image-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-content img {
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+}
+
+
+@media (min-width: 768px) {
+  .content-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .content-block.reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+.text-content {
+  flex: 1;
+}

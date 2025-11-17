@@ -39,7 +39,8 @@ body {
             border-radius: 12px;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
         }
-        .button-link {
+        /* button era del botón descargar Estatuto en PDF. Lo mantengo por el estilo para el botón de formulario*/
+        .button-link {     
             display: inline-block;
             background-color: #004d1a;
             color: #f5f5f5;
