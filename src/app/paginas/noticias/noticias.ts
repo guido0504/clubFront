@@ -33,13 +33,12 @@ export class Noticias implements AfterViewInit, OnInit {
   constructor(private el: ElementRef, private postService: PostService) {}
 
   ngOnInit(): void {
-    this.getAll();
+    //this.getAll();
   }
 
   getAll() {
     this.postService.getPosts().subscribe((response) => {
-      this.listPost = response.data;
-      console.log(this.listPost);
+      this.listPost = response.data.filter((n: any) => n.tipoEvento?.id === 3);
     });
   }
   // Se ejecuta después de que Angular inicializa la vista del componente y sus hijos.

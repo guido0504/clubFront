@@ -43,4 +43,13 @@ export class PostService {
   getSections(): Observable<string[]> {
     return this.http.get<string[]>(SECTIONS_URL);
   }
+
+  //Servicios reales
+  getAll(): Observable<PostDataResponseDto> {
+    return this.http.get<PostDataResponseDto>(apiUrl + '/post/findAll');
+  }
+
+  getById(id: number): Observable<PostDataResponseDto> {
+    return this.http.get<PostDataResponseDto>(apiUrl + 'post/findById/' + id);
+  }
 }

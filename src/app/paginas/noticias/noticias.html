@@ -1,78 +1,53 @@
-     <section class="contenedor-noticias">
-        <article class="noticia-principal">
-            <img src="imagenes/Voley3.jpg" alt="">
-            <div class="contenido-noticias">
-            <h3>🏐 ¡Alegría y Triunfo en el Vóley Infantil de Villa Elvira!</h3>
-            <p>El equipo de vóley infantil del Centro de Fomento Villa Elvira ha cerrado el mes con una participación estelar en el torneo local. Con gran entusiasmo y un espíritu deportivo ejemplar, las jóvenes promesas demostraron notable progreso en cada partido. Más allá de los resultados, destacaron por su compañerismo y la energía positiva dentro y fuera de la cancha. Este éxito refleja el excelente trabajo de formación que realiza el club, consolidando el vóley como una disciplina clave para el desarrollo social y físico de los niños del barrio. ¡Un futuro brillante espera a estas pequeñas grandes deportistas!...</p>
+<section class="contenedor-noticias">
+
+    <!--@for(i of listPost;track i ){
+    <article class="noticia-principal">
+        <img src='{{i?.imageUrl}}' alt="">
+        <div class="contenido-noticias">
+            <h3>{{i.title}}</h3>
+            <p>{{i.body}}</p>
             <button #leerMasButton>Seguir leyendo...</button>
-            </div>
-        </article>
-        
-        <article>
-            <img src="imagenes/gimnasia .jpg" alt="">
-            <div class="contenido-noticias">
+        </div>
+    </article>
+}-->
+
+    <article class="noticia-principal">
+        <img src="imagenes/Voley3.jpg" alt="">
+        <div class="contenido-noticias">
+            <h3>🏐 ¡Alegría y Triunfo en el Vóley Infantil de Villa Elvira!</h3>
+            <p>El equipo de vóley infantil del Centro de Fomento Villa Elvira ha cerrado el mes con una participación
+                estelar en el torneo local. Con gran entusiasmo y un espíritu deportivo ejemplar, las jóvenes promesas
+                demostraron notable progreso en cada partido. Más allá de los resultados, destacaron por su compañerismo
+                y la energía positiva dentro y fuera de la cancha. Este éxito refleja el excelente trabajo de formación
+                que realiza el club, consolidando el vóley como una disciplina clave para el desarrollo social y físico
+                de los niños del barrio. ¡Un futuro brillante espera a estas pequeñas grandes deportistas!...</p>
+            <button #leerMasButton>Seguir leyendo...</button>
+        </div>
+    </article>
+
+    <article>
+        <img src="imagenes/gimnasia .jpg" alt="">
+        <div class="contenido-noticias">
             <h3>Título de la noticia 2</h3>
             <p>Contenido de la noticia 2...</p>
             <button #leerMasButton>Seguir leyendo...</button>
-            </div>
-        </article>
-        <article>
-            <img src="imagenes/tango.jpg" alt="">
-            <div class="contenido-noticias">
+        </div>
+    </article>
+    <article>
+        <img src="imagenes/tango.jpg" alt="">
+        <div class="contenido-noticias">
             <h3>Título de la noticia 3</h3>
             <p>Contenido de la noticia 3...</p>
             <button #leerMasButton>Seguir leyendo...</button>
-            </div>
-        </article>
-        <article>
-            <img src="" alt="">
-            <div class="contenido-noticias">
-            <h3>Título de la noticia 4</h3>
-            <p>Contenido de la noticia 4...</p>
-            <button #leerMasButton>Seguir leyendo...</button>
-            </div>
-        </article>
-        <article>
-            <img src="" alt="">
-            <div class="contenido-noticias">
-            <h3>Título de la noticia 5</h3>
-            <p>Contenido de la noticia 5...</p>
-            <button #leerMasButton>Seguir leyendo...</button>
-            </div>
-        </article>
-        <article>
-            <img src="" alt="">
-            <div class="contenido-noticias">
-            <h3>Título de la noticia 6</h3>
-            <p>Contenido de la noticia 6</p>
-            <button #leerMasButton>Seguir leyendo...</button>
-            </div>
-        </article>
+        </div>
+    </article>
+</section>
 
-        <article>
-            <img src="" alt="">
-            <div class="contenido-noticias">
-            <h3>Título de la noticia 2</h3>
-            <p>Contenido de la noticia 2</p>
-            <button #leerMasButton>Seguir leyendo...</button>
-            </div>
-        </article>
-
-        <article>
-            <img src="" alt="">
-            <div class="contenido-noticias">
-            <h3>Título de la noticia 2</h3>
-            <p>hola</p>
-            <button #leerMasButton>Seguir leyendo...</button>
-            </div>
-        </article>
-    </section>
-<div id="modal-noticia"#modalOverlay class="modal-overlay">
-  <div class="modal-content">
-    <span class="cerrar-modal" #cerrarModal >&times;</span>
-    <h3 id="modal-titulo" #modalTitulo></h3>
-    <img id="modal-imagen" #modalImagen src="" alt="">
-    <p id="modal-parrafo" #modalParrafo></p>
-  </div>
+<div id="modal-noticia" #modalOverlay class="modal-overlay">
+    <div class="modal-content">
+        <span class="cerrar-modal" #cerrarModal>&times;</span>
+        <h3 id="modal-titulo" #modalTitulo></h3>
+        <img id="modal-imagen" #modalImagen src="" alt="">
+        <p id="modal-parrafo" #modalParrafo></p>
+    </div>
 </div>
-

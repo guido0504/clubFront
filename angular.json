@@ -84,5 +84,10 @@
         }
       }
     }
+  },
+  "cli": {
+    "cache": {
+      "enabled": false
+    }
   }
 }
