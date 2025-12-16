@@ -1,13 +1,22 @@
-import { AfterViewInit, Component, ElementRef, QueryList, ViewChild, ViewChildren } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  OnInit,
+  QueryList,
+  ViewChild,
+  ViewChildren,
+} from '@angular/core';
+import { PostService } from '../../service/post/post.service';
+import { PostResponseDto } from '../../model/post';
 
 @Component({
   selector: 'app-noticias',
   imports: [],
   templateUrl: './noticias.html',
-  styleUrl: './noticias.css'
+  styleUrl: './noticias.css',
 })
-export class Noticias implements AfterViewInit {
-
+export class Noticias implements AfterViewInit, OnInit {
   // Referencias a los elementos del Modal (usando ViewChild para IDs únicos)
   @ViewChild('modalOverlay') modalOverlayRef!: ElementRef<HTMLElement>;
   @ViewChild('cerrarModal') cerrarModalRef!: ElementRef<HTMLElement>;
@@ -16,11 +25,23 @@ export class Noticias implements AfterViewInit {
   @ViewChild('modalParrafo') modalParrafoRef!: ElementRef<HTMLElement>;
 
   // Referencia a todos los botones "Leer Más" (usando ViewChildren)
-  @ViewChildren('leerMasButton', { read: ElementRef }) botonesLeerMas!: QueryList<ElementRef<HTMLButtonElement>>;
+  @ViewChildren('leerMasButton', { read: ElementRef })
+  botonesLeerMas!: QueryList<ElementRef<HTMLButtonElement>>;
+  listPost: PostResponseDto[] = [];
 
   // Inyectamos ElementRef en caso de necesitar acceso general al DOM
-  constructor(private el: ElementRef) {}
+  constructor(private el: ElementRef, private postService: PostService) {}
 
+  ngOnInit(): void {
+    this.getAll();
+  }
+
+  getAll() {
+    this.postService.getPosts().subscribe((response) => {
+      this.listPost = response.data;
+      console.log(this.listPost);
+    });
+  }
   // Se ejecuta después de que Angular inicializa la vista del componente y sus hijos.
   ngAfterViewInit(): void {
     // 1. Configurar eventos de los botones "Leer Más"
@@ -33,7 +54,7 @@ export class Noticias implements AfterViewInit {
   private configurarBotonesLeerMas(): void {
     this.botonesLeerMas.forEach((buttonRef: ElementRef<HTMLButtonElement>) => {
       buttonRef.nativeElement.addEventListener('click', (event: Event) => {
-        event.preventDefault(); 
+        event.preventDefault();
         this.mostrarModal(event.target as HTMLElement);
       });
     });
@@ -65,8 +86,7 @@ export class Noticias implements AfterViewInit {
     const titulo = article.querySelector('h3')?.textContent || '';
     const imagenSrc = article.querySelector('img')?.src || '';
     const parrafo = article.querySelector('p')?.textContent || '';
-    
-    
+
     // Rellenar y mostrar el modal
     this.modalTituloRef.nativeElement.textContent = titulo;
     this.modalImagenRef.nativeElement.src = imagenSrc;
