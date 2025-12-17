@@ -9,10 +9,14 @@ import {
 } from '@angular/core';
 import { PostService } from '../../service/post/post.service';
 import { PostResponseDto } from '../../model/post';
+import { ButtonModule } from 'primeng/button';
+import { CardModule } from 'primeng/card';
+import { DialogModule } from 'primeng/dialog';
+import { TableModule } from 'primeng/table';
 
 @Component({
   selector: 'app-noticias',
-  imports: [],
+  imports: [ButtonModule, TableModule, CardModule, DialogModule],
   templateUrl: './noticias.html',
   styleUrl: './noticias.css',
 })
@@ -77,12 +81,12 @@ export class Noticias implements AfterViewInit, OnInit {
 
   private mostrarModal(buttonClicked: HTMLElement): void {
     // Buscar el <article> más cercano
-    const article = buttonClicked.closest('article');
+    const article = buttonClicked.closest('p-card');
 
     if (!article) return; // Salir si no se encuentra el article
 
     // Obtener los datos usando querySelector dentro del article
-    const titulo = article.querySelector('h3')?.textContent || '';
+    const titulo = article.querySelector('p-card-title')?.textContent || '';
     const imagenSrc = article.querySelector('img')?.src || '';
     const parrafo = article.querySelector('p')?.textContent || '';
 

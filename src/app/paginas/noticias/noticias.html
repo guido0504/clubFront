@@ -11,36 +11,48 @@
     </article>
 }-->
 
-    <article class="noticia-principal">
-        <img src="imagenes/Voley3.jpg" alt="">
-        <div class="contenido-noticias">
-            <h3>🏐 ¡Alegría y Triunfo en el Vóley Infantil de Villa Elvira!</h3>
-            <p>El equipo de vóley infantil del Centro de Fomento Villa Elvira ha cerrado el mes con una participación
-                estelar en el torneo local. Con gran entusiasmo y un espíritu deportivo ejemplar, las jóvenes promesas
-                demostraron notable progreso en cada partido. Más allá de los resultados, destacaron por su compañerismo
-                y la energía positiva dentro y fuera de la cancha. Este éxito refleja el excelente trabajo de formación
-                que realiza el club, consolidando el vóley como una disciplina clave para el desarrollo social y físico
-                de los niños del barrio. ¡Un futuro brillante espera a estas pequeñas grandes deportistas!...</p>
-            <button #leerMasButton>Seguir leyendo...</button>
-        </div>
-    </article>
+    <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
+        <ng-template #header>
+            <img alt="Card" class="w-full" src="imagenes/Voley3.jpg" />
+        </ng-template>
+        <ng-template #title> 🏐 Cierre del año de MINI VOLEY 2025</ng-template>
+        <p>
+            El club ha cerrado el año con un éxito notable en el torneo local. Con gran entusiasmo y
+            un espíritu deportivo ejemplar, las jóvenes promesas demostraron notable progreso en cada partido.
+            Más allá de los resultados, destacaron por su compañerismo y la energía positiva dentro y fuera de la
+            cancha.
+            Este éxito refleja el excelente trabajo de formación que realiza el club, consolidando el vóley como una
+            disciplina clave para el desarrollo social y físico de los niños del barrio.
+            ¡Un futuro brillante espera a estas pequeñas grandes deportistas!
+        </p>
+        <ng-template #footer>
+            <div class="flex gap-4 mt-1">
+                <p-button #leerMasButton label="Seguir leyendo..." class="w-full" styleClass="w-full" />
+            </div>
+        </ng-template>
 
-    <article>
-        <img src="imagenes/gimnasia .jpg" alt="">
-        <div class="contenido-noticias">
-            <h3>Título de la noticia 2</h3>
-            <p>Contenido de la noticia 2...</p>
-            <button #leerMasButton>Seguir leyendo...</button>
-        </div>
-    </article>
-    <article>
-        <img src="imagenes/tango.jpg" alt="">
-        <div class="contenido-noticias">
-            <h3>Título de la noticia 3</h3>
-            <p>Contenido de la noticia 3...</p>
-            <button #leerMasButton>Seguir leyendo...</button>
-        </div>
-    </article>
+    </p-card>
+    <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
+        <ng-template #header>
+            <img alt="Card" class="w-full" src="imagenes/gimnasia .jpg" />
+        </ng-template>
+        <ng-template #title> Comienzo de actividades 2026 </ng-template>
+        <p>
+            El club comenzara sus practicas en febrero del 2026, en sus respectivo horarios. Con gran entusiasmo y
+            un espíritu deportivo ejemplar, las jóvenes promesas demostrarán notable progreso en cada partido.
+            Más allá de los resultados, destacarán por su compañerismo y la energía positiva dentro y fuera de la
+            cancha.
+            Este éxito reflejara el excelente trabajo de formación que realiza el club, consolidando el vóley como
+            una
+            disciplina clave para el desarrollo social y físico de los niños del barrio.
+            ¡Un futuro brillante espera a estas pequeñas grandes deportistas!
+        </p>
+        <ng-template #footer>
+            <div class="flex gap-4 mt-1">
+                <p-button #leerMasButton label="Seguir leyendo..." class="w-full" styleClass="w-full" />
+            </div>
+        </ng-template>
+    </p-card>
 </section>
 
 <div id="modal-noticia" #modalOverlay class="modal-overlay">
