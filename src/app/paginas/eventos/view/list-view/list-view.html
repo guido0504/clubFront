@@ -1,52 +1,31 @@
 <section class="contenedor-noticias">
 
+    @for(i of listPost;track i ){
     <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
         <ng-template #header>
-            <img alt="Card" class="w-full" src="imagenes/Fiesta.png" />
+            <img alt="Card" class="w-full" src="{{i.imageUrl}}" />
         </ng-template>
-        <ng-template #title> Fiesta fin de año 2025</ng-template>
+        <ng-template #title>{{i.title}}</ng-template>
         <p>
-            En esta celebración se entregaran los premios a las distintas actividades deportivas. Tanto a los
-            entrenadores, como a los jugadores.
-            La fiesta se realizara en el club Centro Fomento Villa Elvira, el día 18 de diciembre a las 20:30hs.
-            Valor de la cena $10000 (1 hamburguesa o 1 chori más 1 bebida de 500 ml). Menores de edad no pagan.
-            Dirección 120 NRO 2069 e/ 74 y 75.
+            {{i.body}}
         </p>
         <ng-template #footer>
             <div class="flex gap-4 mt-1">
-                <p-button #leerMasButton label="Seguir leyendo..." class="w-full" styleClass="w-full" />
-            </div>
-        </ng-template>
-
-    </p-card>
-    <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
-        <ng-template #header>
-            <img alt="Card" class="w-full" src="imagenes/gimnasia .jpg" />
-        </ng-template>
-        <ng-template #title> Comienzo de actividades 2026 </ng-template>
-        <p>
-            El club comenzara sus practicas en febrero del 2026, en sus respectivo horarios. Con gran entusiasmo y
-            un espíritu deportivo ejemplar, las jóvenes promesas demostrarán notable progreso en cada partido.
-            Más allá de los resultados, destacarán por su compañerismo y la energía positiva dentro y fuera de la
-            cancha.
-            Este éxito reflejara el excelente trabajo de formación que realiza el club, consolidando el vóley como
-            una
-            disciplina clave para el desarrollo social y físico de los niños del barrio.
-            ¡Un futuro brillante espera a estas pequeñas grandes deportistas!
-        </p>
-        <ng-template #footer>
-            <div class="flex gap-4 mt-1">
-                <p-button #leerMasButton label="Seguir leyendo..." class="w-full" styleClass="w-full" />
+                <p-button label="Seguir leyendo..." class="w-full" styleClass="w-full" (onClick)="open(i)"></p-button>
             </div>
         </ng-template>
     </p-card>
+    }
 </section>
 
-<div id="modal-noticia" #modalOverlay class="modal-overlay">
-    <div class="modal-content">
-        <span class="cerrar-modal" #cerrarModal>&times;</span>
-        <h3 id="modal-titulo" #modalTitulo></h3>
-        <img id="modal-imagen" #modalImagen src="" alt="">
-        <p id="modal-parrafo" #modalParrafo></p>
-    </div>
-</div>
+<p-dialog [(visible)]="visible" [modal]="true" [dismissableMask]="true" [style]="{ width: '60vw' }"
+    [breakpoints]="{ '960px': '95vw' }" [header]="selectedPost?.title" (onHide)="close()">
+
+    @if (selectedPost) {
+    <h4 style="display:block; margin-bottom: 10px; opacity: .8;">
+       Fecha del evento {{ selectedPost.fechaHora| date:'dd/MM/yyyy' }}
+    </h4>
+    <img [src]="selectedPost.imageUrl" alt="" style="width:100%; border-radius:12px; margin-bottom:12px;">
+    <p class="parrafo">{{ selectedPost.body }}</p>
+    }
+</p-dialog>

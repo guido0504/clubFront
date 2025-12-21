@@ -48,3 +48,22 @@ body{
 .text-content {
   flex: 1;
 }
+
+html, body {
+  height: 100%;
+}
+
+app-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;           /* ocupa el espacio restante */
+  display: block;
+}
+
+app-footer {
+  display: block;    /* por las dudas */
+}

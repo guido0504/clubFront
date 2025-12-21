@@ -1,24 +1,26 @@
-<div class="contenedor-portada">    
-    <div class="logo-nuevo">   <!-- Contenedor Logo -->
-        <a href="#" (click)="('/')">  <!-- Click en el logo para regresar a Inicio -->
+<div class="contenedor-portada">
+    <div class="logo-nuevo"> <!-- Contenedor Logo -->
+        <a href="#" (click)="('/')"> <!-- Click en el logo para regresar a Inicio -->
             <img src="./centroFomentoVE_logo.png" alt="logo centro de fomento" class="animacion-resplandor">
         </a>
-    </div> 
-    
-    <div class="texto-logo">   <!-- Contenedor texto desp del logo -->
+    </div>
+
+    <div class="texto-logo"> <!-- Contenedor texto desp del logo -->
         <h1 class="primera-linea">
             CENTRO DE FOMENTO
         </h1>
         <h1 class="segunda-linea">
             <span>Villa Elvira</span>
         </h1>
-    </div> 
-    
-    <div class="social-icons">   <!-- Contenedor iconos redes sociales -->
-        <a href="https://www.facebook.com/centrodefomentovillaelviraoficial" target="_blank" class="social-icon" aria-label="Facebook">
+    </div>
+
+    <div class="social-icons"> <!-- Contenedor iconos redes sociales -->
+        <a href="https://www.facebook.com/centrodefomentovillaelviraoficial" target="_blank" class="social-icon"
+            aria-label="Facebook">
             <img src="./social-icons/icons8-facebook-120.png" alt="Icono de Facebook">
         </a>
-        <a href="https://www.instagram.com/centrodefomentovillaelvira/" target="_blank" class="social-icon" aria-label="Instagram">
+        <a href="https://www.instagram.com/centrodefomentovillaelvira/" target="_blank" class="social-icon"
+            aria-label="Instagram">
             <img src="./social-icons/icons8-instagram-120.png" alt="Icono de Instagram">
         </a>
         <a href="#" class="social-icon" aria-label="WhatsApp">
@@ -31,7 +33,7 @@
 
 
 <header>
-    <nav class="menu">              
+    <nav class="menu">
         <ul>
             <li><a routerLink="/">Inicio</a></li>
             <li><a routerLink="/institucional">Institucional</a></li>
@@ -53,20 +55,21 @@
                     <li><a [routerLink]="['/actividades', 'tango']">Tango</a></li>
                     <li><a [routerLink]="['/actividades', 'taller-de-lectura']">Taller de lectura</a></li>
                     <li><a [routerLink]="['/actividades', 'artes-marciales']">Artes Marciales</a></li>
-                    <li><a [routerLink]="['/actividades', 'patin']">Patín</a></li>       
+                    <li><a [routerLink]="['/actividades', 'patin']">Patín</a></li>
                 </ul>
             </li>
             <li><a routerLink="/salud">Salud</a></li>
             <li><a routerLink="/eventos">Eventos</a></li>
             <li><a routerLink="/noticias">Noticias</a></li>
         </ul>
-        
-        <div class="login-icon-container">   <!--Contenedor del icono de inicio de sesión-->
-            <a routerLink="/login">
+
+        <div class="login-icon-container"> <!--Contenedor del icono de inicio de sesión-->
+            <!--<a routerLink="/login">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path d="M12 2C9.243 2 7 4.243 7 7s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5zm0 14c-5.522 0-10 4.478-10 10h20c0-5.522-4.478-10-10-10z"/>
                 </svg>
             </a>
+        -->
         </div>
     </nav>
 
@@ -74,5 +77,3 @@
 
 
 </header>
-
-

@@ -1,1 +1,31 @@
-<p>salud works!</p>
+<section class="contenedor-noticias">
+
+    @for(i of listPost;track i ){
+    <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
+        <ng-template #header>
+            <img alt="Card" class="w-full" src="{{i.imageUrl}}" />
+        </ng-template>
+        <ng-template #title>{{i.title}}</ng-template>
+        <p>
+            {{i.body}}
+        </p>
+        <ng-template #footer>
+            <div class="flex gap-4 mt-1">
+                <p-button label="Seguir leyendo..." class="w-full" styleClass="w-full" (onClick)="open(i)"></p-button>
+            </div>
+        </ng-template>
+    </p-card>
+    }
+</section>
+
+<p-dialog [(visible)]="visible" [modal]="true" [dismissableMask]="true" [style]="{ width: '60vw' }"
+    [breakpoints]="{ '960px': '95vw' }" [header]="selectedPost?.title" (onHide)="close()">
+
+    @if (selectedPost) {
+    <h4 style="display:block; margin-bottom: 10px; opacity: .8;">
+        Fecha de publicación {{ selectedPost.fechaHora| date:'dd/MM/yyyy' }}
+    </h4>
+    <img [src]="selectedPost.imageUrl" alt="" style="width:100%; border-radius:12px; margin-bottom:12px;">
+    <p class="parrafo">{{ selectedPost.body }}</p>
+    }
+</p-dialog>
