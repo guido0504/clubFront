@@ -1,0 +1,576 @@
+[2025-12-15 15:59:00.983] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: 8a8e123e4fb442e47d87ea23876d8d54)
+[2025-12-15 15:59:00.988] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=15 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-15 15:59:01.192] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-15 15:59:01.194] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-15 15:59:01.248] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 15:59:01.248] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 15:59:01.265] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: ed63ec68a6fd4f16dc45464bdc8ee22e)
+[2025-12-15 15:59:01.266] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=16 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-15 15:59:01.266] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-15 15:59:23.057] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-15 15:59:23.527] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 15:59:23.530] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 15:59:23.616] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: a6f33a747e63417331826a95bffd85f8)
+[2025-12-15 15:59:23.618] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=17 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-15 15:59:23.831] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-15 15:59:23.862] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-15 15:59:24.078] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 15:59:24.078] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 15:59:24.116] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: cff0070c1dd34547ea89c8f251f06204)
+[2025-12-15 15:59:24.117] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=18 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-15 15:59:24.333] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-15 15:59:24.340] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-15 15:59:24.345] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::actions::Service::GetNotificationsStream(grpc::ServerContext *, const proto::v1::GetNotificationsStreamRequest *, grpc::ServerWriter<proto::v1::GetNotificationsStreamResponse> *)
+[2025-12-15 15:59:24.349] [global] [info] [notification_manager.cc:84] Reading from C:\Users\guido\Documents\Proyectos\club\clubFront\.trunk\notifications\trunk-share-with-everyone.yaml
+[2025-12-15 15:59:24.363] [global] [info] [service.cc:162] Writing notification state to file
+[2025-12-15 15:59:24.579] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 15:59:24.580] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 15:59:24.630] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: 409c0e405add4b3d474520887fcb9d78)
+[2025-12-15 15:59:24.635] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=19 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-15 15:59:24.837] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-15 15:59:24.840] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-12-15 15:59:24.842] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-15 15:59:24.918] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 15:59:24.920] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 15:59:25.010] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 15:59:25.014] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 15:59:25.065] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: a9c46c7334d549ab3d2709ef2778fbf9)
+[2025-12-15 15:59:25.092] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 15:59:25.092] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 15:59:25.143] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: 1035342453bf4354c0c06954b05b011c)
+[2025-12-15 15:59:25.143] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=20 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-15 15:59:25.146] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-15 15:59:25.152] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-12-15 15:59:25.154] [global] [info] [sentry.cc:354] Trunk user error full stack:
+trunk_cli_version: 1.25.0
+title: Something went wrong (but it doesn't appear to be our fault)
+report:
+  - "Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch."
+[2025-12-15 15:59:25.154] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=INTERNAL err='Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch.'
+[2025-12-15 15:59:25.156] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-15 15:59:25.188] [global] [info] [service.cc:256] lint session ended sid=19
+[2025-12-15 15:59:25.188] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=19] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 15:59:25.189] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=19] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 15:59:25.189] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 15:59:25.194] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 15:59:25.197] [global] [info] [service.cc:256] lint session ended sid=18
+[2025-12-15 15:59:25.197] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=18] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 15:59:25.198] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=18] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 15:59:25.199] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 15:59:25.205] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 15:59:25.206] [global] [info] [service.cc:256] lint session ended sid=17
+[2025-12-15 15:59:25.206] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=17] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 15:59:25.210] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=17] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 15:59:25.210] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 15:59:25.219] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 15:59:25.257] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-12-15 15:59:25.259] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-12-15 15:59:25.338] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 15:59:25.338] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 15:59:25.433] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::actions::Service::GetNotificationsStream(grpc::ServerContext *, const proto::v1::GetNotificationsStreamRequest *, grpc::ServerWriter<proto::v1::GetNotificationsStreamResponse> *) status=OK
+[2025-12-15 15:59:25.490] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: 1dc89630afb7446a440559d5ff2262f6)
+[2025-12-15 15:59:25.490] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=21 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-15 15:59:25.494] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-15 15:59:25.499] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-12-15 15:59:25.653] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 15:59:25.654] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 15:59:25.697] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: 9acbed6738bf43388964355eb2df7dbf)
+[2025-12-15 15:59:25.788] [global] [info] [sentry.cc:354] Trunk user error full stack:
+trunk_cli_version: 1.25.0
+title: Something went wrong (but it doesn't appear to be our fault)
+report:
+  - "Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch."
+[2025-12-15 15:59:25.788] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=INTERNAL err='Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch.'
+[2025-12-15 15:59:25.794] [global] [info] [service.cc:256] lint session ended sid=21
+[2025-12-15 15:59:25.794] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=21] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 15:59:25.795] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=21] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 15:59:25.795] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 15:59:25.797] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 15:59:26.304] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-12-15 15:59:29.756] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 15:59:29.757] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 15:59:35.866] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 15:59:35.867] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 15:59:46.559] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-15 15:59:47.012] [global] [warning] [release.cc:142] Querying validated version from ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-15 15:59:47.015] [global] [info] [linter.cc:1078] Validated version for oxipng not provided, or bypassed. Using fallback
+[2025-12-15 15:59:47.015] [global] [info] [linter.cc:1078] Validated version for trufflehog not provided, or bypassed. Using fallback
+[2025-12-15 15:59:47.017] [global] [info] [linter.cc:1078] Validated version for checkov not provided, or bypassed. Using fallback
+[2025-12-15 15:59:47.017] [global] [info] [linter.cc:1078] Validated version for markdownlint not provided, or bypassed. Using fallback
+[2025-12-15 15:59:47.019] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-15 15:59:47.019] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-15 15:59:47.019] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-15 15:59:47.593] [global] [info] [linter.cc:1078] Validated version for osv-scanner not provided, or bypassed. Using fallback
+[2025-12-15 15:59:49.305] [global] [info] [linter.cc:1078] Validated version for prettier not provided, or bypassed. Using fallback
+[2025-12-15 15:59:49.307] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-15 15:59:49.307] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-15 15:59:49.307] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-15 16:00:01.040] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:00:01.048] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:00:08.256] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-15 16:00:08.296] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-15 16:00:08.786] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-15 16:00:09.338] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-12-15 16:00:09.363] [global] [info] [service.cc:256] lint session ended sid=20
+[2025-12-15 16:00:09.363] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=20] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 16:00:09.371] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=20] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 16:00:09.371] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 16:00:09.380] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 16:00:09.390] [global] [info] [service.cc:256] lint session ended sid=16
+[2025-12-15 16:00:09.391] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=16] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 16:00:09.391] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=16] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 16:00:09.391] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 16:00:09.402] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 16:00:09.417] [global] [info] [service.cc:256] lint session ended sid=15
+[2025-12-15 16:00:09.417] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=15] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 16:00:09.418] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=15] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 16:00:09.418] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-15 16:00:09.428] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-15 16:02:01.387] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:02:01.398] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:04:06.835] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:04:06.843] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:04:09.072] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:04:09.073] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:04:12.225] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:04:12.225] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:04:13.389] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:04:13.389] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:04:18.246] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:04:18.247] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:04:19.856] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:04:19.856] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:04:24.361] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:04:24.361] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:04:25.162] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:04:25.162] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:04:56.476] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:04:56.477] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:04:57.029] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:04:57.030] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:05:01.241] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:05:01.241] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:05:01.767] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:05:01.767] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:05:17.457] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:05:17.457] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:05:18.131] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:05:18.131] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:05:19.322] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:05:19.322] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:08:12.909] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:08:12.918] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:08:44.219] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:08:44.219] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:09:07.928] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:09:07.930] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:09:10.046] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:09:10.047] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:10:58.963] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:10:58.968] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:11:01.648] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:11:01.649] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:11:29.780] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:11:29.789] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:11:32.825] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:11:32.827] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:13:15.425] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:13:15.434] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:13:17.279] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:13:17.280] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:13:34.889] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:13:34.889] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:13:35.695] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:13:35.695] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:14:19.564] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:14:19.570] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:14:21.206] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:14:21.207] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:14:39.359] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:14:39.359] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:14:40.350] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:14:40.350] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:15:22.138] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:15:22.145] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:15:58.853] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:15:58.869] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:16:13.838] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:16:13.838] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:16:14.635] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:16:14.635] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:16:15.767] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:16:15.768] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:17:41.785] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:17:41.791] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:17:44.746] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:17:44.747] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:19:28.133] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:19:28.147] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:19:30.633] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:19:30.633] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-15 16:19:47.258] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-15 16:19:47.259] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:24:38.871] [global] [warning] [regex.cc:19] Parse regex function failed: Input '11.9.2' did not match regex 'flyway-(?P<semver>.*)'
+[2025-12-16 17:24:38.871] [global] [warning] [download.cc:231] flyway could not parse arg 'semver' from regex function '${version}=>flyway-(?P<semver>.*)' 
+[2025-12-16 17:24:38.975] [global] [info] [run.cc:554] Ran command: 'daemon launch' LogLevel:error
+[2025-12-16 17:24:39.621] [global] [info] [runner.cc:39] Created Action Runner
+[2025-12-16 17:24:39.621] [global] [info] [runner.cc:123] Commenced Action Loop
+[2025-12-16 17:24:39.640] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2025-12-16 17:24:39.645] [global] [info] [runner.cc:154] Executing action trunk-cache-prune.schedule.24h
+[2025-12-16 17:24:39.651] [global] [info] [runner.cc:154] Executing action trunk-share-with-everyone.schedule.24h
+[2025-12-16 17:24:39.684] [global] [info] [server.cc:106] Starting daemon 1.25.0. LogLevel:2
+[2025-12-16 17:24:39.949] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-16 17:24:40.951] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:24:41.070] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:24:41.327] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: f9411693a6b14b2ee1712eabb3104fd5)
+[2025-12-16 17:24:41.332] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=1 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-16 17:24:41.550] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-16 17:24:41.554] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-16 17:24:41.940] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:24:41.941] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:24:42.004] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: bc13111d32f840c50290d18289c9462c)
+[2025-12-16 17:24:42.005] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=2 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-16 17:24:42.006] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-16 17:24:42.494] [global] [info] [notification_manager.cc:37] Writing to C:\Users\guido\Documents\Proyectos\club\clubFront\.trunk\notifications\trunk-share-with-everyone.yaml
+[2025-12-16 17:24:42.507] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-12-16 17:24:42.572] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-12-16 17:24:42.573] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-12-16 17:24:43.769] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-12-16 17:25:03.782] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:25:04.567] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-16 17:25:04.603] [global] [warning] [release.cc:142] Querying validated version from ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:25:04.605] [global] [info] [linter.cc:1078] Validated version for trufflehog not provided, or bypassed. Using fallback
+[2025-12-16 17:25:04.605] [global] [info] [linter.cc:1078] Validated version for osv-scanner not provided, or bypassed. Using fallback
+[2025-12-16 17:25:04.605] [global] [info] [linter.cc:1078] Validated version for checkov not provided, or bypassed. Using fallback
+[2025-12-16 17:25:04.605] [global] [info] [linter.cc:1078] Validated version for markdownlint not provided, or bypassed. Using fallback
+[2025-12-16 17:25:04.611] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:25:04.611] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:25:04.611] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:25:04.648] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:25:04.648] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:25:04.698] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: 9d7781fc91c54b5ff0e3a8fb616bcdea)
+[2025-12-16 17:25:04.698] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=3 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-16 17:25:04.698] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-16 17:25:04.700] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-16 17:25:04.701] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::actions::Service::GetNotificationsStream(grpc::ServerContext *, const proto::v1::GetNotificationsStreamRequest *, grpc::ServerWriter<proto::v1::GetNotificationsStreamResponse> *)
+[2025-12-16 17:25:04.702] [global] [info] [notification_manager.cc:84] Reading from C:\Users\guido\Documents\Proyectos\club\clubFront\.trunk\notifications\trunk-share-with-everyone.yaml
+[2025-12-16 17:25:04.704] [global] [info] [service.cc:162] Writing notification state to file
+[2025-12-16 17:25:04.782] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:25:04.782] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:25:04.877] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: 968d92a38a3a48e1ef26c590938da33a)
+[2025-12-16 17:25:04.881] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=4 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-16 17:25:05.082] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-16 17:25:05.084] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-16 17:25:05.294] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:25:05.294] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:25:05.368] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: 18b3d14dede1499ca083ac9adba8d756)
+[2025-12-16 17:25:05.373] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=5 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-16 17:25:05.578] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-16 17:25:05.581] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-16 17:25:05.582] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-12-16 17:25:05.712] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:25:05.715] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:25:05.727] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:25:05.727] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:25:05.757] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: b31b6576cf51445728fe5781770a2495)
+[2025-12-16 17:25:05.767] [global] [info] [sentry.cc:354] Trunk user error full stack:
+trunk_cli_version: 1.25.0
+title: Something went wrong (but it doesn't appear to be our fault)
+report:
+  - "Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch."
+[2025-12-16 17:25:05.767] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=INTERNAL err='Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch.'
+[2025-12-16 17:25:05.779] [global] [info] [service.cc:256] lint session ended sid=5
+[2025-12-16 17:25:05.780] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=5] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:25:05.780] [global] [info] [service.cc:256] lint session ended sid=4
+[2025-12-16 17:25:05.780] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=4] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:25:05.781] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=5] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:25:05.781] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:25:05.782] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=4] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:25:05.782] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:25:05.783] [global] [info] [service.cc:256] lint session ended sid=3
+[2025-12-16 17:25:05.784] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=3] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:25:05.784] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:25:05.787] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:25:05.789] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=3] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:25:05.789] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:25:05.792] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:25:05.803] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: ce9aa82cbb6d481bdd1f50d1dda7be42)
+[2025-12-16 17:25:05.804] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=6 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-16 17:25:06.009] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-16 17:25:06.011] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-12-16 17:25:06.011] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-16 17:25:06.013] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-12-16 17:25:06.015] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-12-16 17:25:06.137] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:25:06.137] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:25:06.203] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: 7746de01907746de61e84c0bfc10e77d)
+[2025-12-16 17:25:06.203] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=7 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-12-16 17:25:06.203] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-16 17:25:06.204] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-12-16 17:25:06.303] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:25:06.303] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:25:06.322] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: 110ec0044793403db97ccd99b242ca3e)
+[2025-12-16 17:25:06.326] [global] [info] [sentry.cc:354] Trunk user error full stack:
+trunk_cli_version: 1.25.0
+title: Something went wrong (but it doesn't appear to be our fault)
+report:
+  - "Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch."
+[2025-12-16 17:25:06.327] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=INTERNAL err='Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch.'
+[2025-12-16 17:25:06.331] [global] [info] [service.cc:256] lint session ended sid=7
+[2025-12-16 17:25:06.331] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=7] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:25:06.332] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=7] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:25:06.332] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:25:06.334] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:25:06.725] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::actions::Service::GetNotificationsStream(grpc::ServerContext *, const proto::v1::GetNotificationsStreamRequest *, grpc::ServerWriter<proto::v1::GetNotificationsStreamResponse> *) status=OK
+[2025-12-16 17:25:06.754] [global] [info] [linter.cc:1078] Validated version for prettier not provided, or bypassed. Using fallback
+[2025-12-16 17:25:06.755] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:25:06.755] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:25:06.755] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:25:06.933] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-12-16 17:25:25.719] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:25:25.723] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:25:27.150] [global] [info] [linter.cc:1078] Validated version for oxipng not provided, or bypassed. Using fallback
+[2025-12-16 17:25:27.165] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:25:27.388] [global] [warning] [release.cc:142] Querying validated version from ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:25:27.389] [global] [info] [linter.cc:1078] Validated version for oxipng not provided, or bypassed. Using fallback
+[2025-12-16 17:25:27.389] [global] [info] [linter.cc:1078] Validated version for checkov not provided, or bypassed. Using fallback
+[2025-12-16 17:25:27.390] [global] [info] [linter.cc:1078] Validated version for markdownlint not provided, or bypassed. Using fallback
+[2025-12-16 17:25:27.390] [global] [info] [linter.cc:1078] Validated version for prettier not provided, or bypassed. Using fallback
+[2025-12-16 17:25:27.391] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:25:27.391] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:25:27.391] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:25:27.391] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:25:27.392] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:25:27.392] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:25:27.934] [global] [info] [linter.cc:1078] Validated version for osv-scanner not provided, or bypassed. Using fallback
+[2025-12-16 17:25:40.116] [global] [info] [linter.cc:1078] Validated version for trufflehog not provided, or bypassed. Using fallback
+[2025-12-16 17:25:48.294] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:25:48.553] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:25:49.074] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:25:49.354] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-12-16 17:26:01.250] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:26:01.729] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-12-16 17:26:01.734] [global] [info] [service.cc:256] lint session ended sid=6
+[2025-12-16 17:26:01.734] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=6] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:26:01.736] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=6] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:26:01.736] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:26:01.739] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:26:01.743] [global] [info] [service.cc:256] lint session ended sid=2
+[2025-12-16 17:26:01.743] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=2] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:26:01.744] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=2] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:26:01.744] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:26:01.748] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:26:01.753] [global] [info] [service.cc:256] lint session ended sid=1
+[2025-12-16 17:26:01.753] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=1] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:26:01.754] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=1] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:26:01.754] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:26:01.757] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:29:39.651] [global] [info] [runner.cc:154] Executing action trunk-single-player-auto-on-upgrade.schedule.24h+5m
+[2025-12-16 17:30:03.401] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-12-16 17:30:03.733] [global] [warning] [regex.cc:19] Parse regex function failed: Input '11.9.2' did not match regex 'flyway-(?P<semver>.*)'
+[2025-12-16 17:30:03.733] [global] [warning] [download.cc:231] flyway could not parse arg 'semver' from regex function '${version}=>flyway-(?P<semver>.*)' 
+[2025-12-16 17:30:03.835] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-12-16 17:30:03.896] [global] [info] [service.cc:118] Notifications config has not changed
+[2025-12-16 17:30:03.925] [global] [info] [service.cc:49] Tools config updated; updating tools
+[2025-12-16 17:30:03.986] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:30:03.989] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:30:05.698] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-12-16 17:30:05.781] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-12-16 17:30:05.782] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-12-16 17:30:06.707] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-12-16 17:30:24.954] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:30:26.731] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-12-16 17:30:26.745] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *)
+[2025-12-16 17:30:26.747] [global] [info] [service.cc:225] Applying upgrade changes to trunk.yaml
+[2025-12-16 17:30:26.749] [global] [info] [linter_upgrade.cc:345] Detected 0 configs to write
+[2025-12-16 17:30:26.749] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *) status=OK
+[2025-12-16 17:30:26.902] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:30:27.369] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-12-16 17:30:27.527] [global] [warning] [release.cc:142] Querying validated version from ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:30:27.536] [global] [info] [linter.cc:1078] Validated version for trufflehog not provided, or bypassed. Using fallback
+[2025-12-16 17:30:27.536] [global] [info] [linter.cc:1078] Validated version for osv-scanner not provided, or bypassed. Using fallback
+[2025-12-16 17:30:27.537] [global] [info] [linter.cc:1078] Validated version for checkov not provided, or bypassed. Using fallback
+[2025-12-16 17:30:27.537] [global] [info] [linter.cc:1078] Validated version for markdownlint not provided, or bypassed. Using fallback
+[2025-12-16 17:30:27.541] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:27.541] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:27.541] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:27.743] [global] [warning] [regex.cc:19] Parse regex function failed: Input '11.9.2' did not match regex 'flyway-(?P<semver>.*)'
+[2025-12-16 17:30:27.743] [global] [warning] [download.cc:231] flyway could not parse arg 'semver' from regex function '${version}=>flyway-(?P<semver>.*)' 
+[2025-12-16 17:30:27.820] [global] [info] [service.cc:118] Notifications config has not changed
+[2025-12-16 17:30:27.857] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:30:27.858] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:30:28.213] [global] [info] [linter.cc:1078] Validated version for prettier not provided, or bypassed. Using fallback
+[2025-12-16 17:30:28.217] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:28.217] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:28.217] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:30.264] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-12-16 17:30:30.317] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-12-16 17:30:30.318] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-12-16 17:30:31.226] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-12-16 17:30:32.281] [global] [info] [linter.cc:1078] Validated version for oxipng not provided, or bypassed. Using fallback
+[2025-12-16 17:30:48.985] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:30:48.995] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:30:49.682] [global] [warning] [release.cc:142] Querying validated version from ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:30:49.683] [global] [info] [linter.cc:1078] Validated version for oxipng not provided, or bypassed. Using fallback
+[2025-12-16 17:30:49.684] [global] [info] [linter.cc:1078] Validated version for osv-scanner not provided, or bypassed. Using fallback
+[2025-12-16 17:30:49.684] [global] [info] [linter.cc:1078] Validated version for checkov not provided, or bypassed. Using fallback
+[2025-12-16 17:30:49.684] [global] [info] [linter.cc:1078] Validated version for markdownlint not provided, or bypassed. Using fallback
+[2025-12-16 17:30:49.685] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:49.685] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:49.685] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:50.081] [global] [info] [linter.cc:1078] Validated version for prettier not provided, or bypassed. Using fallback
+[2025-12-16 17:30:50.083] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:50.083] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:50.083] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:51.455] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:30:51.732] [global] [warning] [release.cc:142] Querying validated version from ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:30:51.754] [global] [info] [linter.cc:1078] Validated version for oxipng not provided, or bypassed. Using fallback
+[2025-12-16 17:30:51.755] [global] [info] [linter.cc:1078] Validated version for osv-scanner not provided, or bypassed. Using fallback
+[2025-12-16 17:30:51.755] [global] [info] [linter.cc:1078] Validated version for markdownlint not provided, or bypassed. Using fallback
+[2025-12-16 17:30:51.755] [global] [info] [linter.cc:1078] Validated version for checkov not provided, or bypassed. Using fallback
+[2025-12-16 17:30:51.757] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:51.757] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:51.757] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:52.404] [global] [info] [linter.cc:1078] Validated version for prettier not provided, or bypassed. Using fallback
+[2025-12-16 17:30:52.406] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:52.406] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:52.406] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:30:53.280] [global] [info] [linter.cc:1078] Validated version for trufflehog not provided, or bypassed. Using fallback
+[2025-12-16 17:30:53.432] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:30:54.163] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-12-16 17:30:54.788] [global] [info] [linter.cc:1078] Validated version for trufflehog not provided, or bypassed. Using fallback
+[2025-12-16 17:31:10.855] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:31:10.869] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:31:12.974] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:31:12.976] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:31:14.440] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:31:14.919] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-12-16 17:31:14.929] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *)
+[2025-12-16 17:31:14.930] [global] [info] [service.cc:225] Applying upgrade changes to trunk.yaml
+[2025-12-16 17:31:14.932] [global] [info] [linter_upgrade.cc:345] Detected 0 configs to write
+[2025-12-16 17:31:14.932] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *) status=OK
+[2025-12-16 17:31:15.939] [global] [warning] [regex.cc:19] Parse regex function failed: Input '11.9.2' did not match regex 'flyway-(?P<semver>.*)'
+[2025-12-16 17:31:15.939] [global] [warning] [download.cc:231] flyway could not parse arg 'semver' from regex function '${version}=>flyway-(?P<semver>.*)' 
+[2025-12-16 17:31:15.985] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:31:16.125] [global] [info] [service.cc:118] Notifications config has not changed
+[2025-12-16 17:31:16.158] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:31:16.159] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:31:16.481] [global] [warning] [release.cc:44] GitHub releases lookup failed for 'https://api.github.com/repos/trufflesecurity/trufflehog/releases' code:403 body:{"message":"API rate limit exceeded for 190.190.252.145. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2025-12-16 17:31:16.692] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-12-16 17:31:18.241] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-12-16 17:31:18.245] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-12-16 17:31:18.246] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-12-16 17:31:19.141] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-12-16 17:31:24.726] [global] [info] [service.cc:145] [user-agent=cli/on-upgrade sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-12-16 17:31:24.957] [global] [warning] [regex.cc:19] Parse regex function failed: Input '11.9.2' did not match regex 'flyway-(?P<semver>.*)'
+[2025-12-16 17:31:24.957] [global] [warning] [download.cc:231] flyway could not parse arg 'semver' from regex function '${version}=>flyway-(?P<semver>.*)' 
+[2025-12-16 17:31:25.052] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:31:25.053] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:31:25.094] [global] [info] [session_context.cc:85] Error getting upstream branching point (reference: 91a0d012c116495164b91c721d83d40c)
+[2025-12-16 17:31:25.094] [global] [info] [service.cc:227] [user-agent=cli/on-upgrade sid=n/a] lint session created sid=8 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 1, client_id: , scope: 1
+[2025-12-16 17:31:25.095] [global] [info] [service.cc:145] [user-agent=cli/on-upgrade sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-12-16 17:31:25.097] [global] [info] [service.cc:409] [user-agent=cli/on-upgrade sid=8] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-12-16 17:31:25.100] [global] [info] [service.cc:409] [user-agent=cli/on-upgrade sid=8] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-12-16 17:31:25.101] [global] [info] [service.cc:528] [user-agent=cli/on-upgrade sid=8] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-12-16 17:31:25.116] [global] [info] [cache.cc:978] [on-demand] [prettier:format:.trunk\trunk.yaml:HEAD] running linter (uncacheable)
+[2025-12-16 17:31:25.236] [global] [info] [service.cc:118] Notifications config has not changed
+[2025-12-16 17:31:25.256] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:31:25.257] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:31:26.337] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-12-16 17:31:26.340] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-12-16 17:31:26.342] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-12-16 17:31:26.600] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\prettier\3.7.4-01d2dcd7bf7371cdfe40e4d85b0c079d/bin\python3.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:26.600] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\prettier\3.7.4-01d2dcd7bf7371cdfe40e4d85b0c079d/bin\python3 // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:26.600] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\prettier\3.7.4-01d2dcd7bf7371cdfe40e4d85b0c079d/bin\python3.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:26.600] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\prettier\3.7.4-01d2dcd7bf7371cdfe40e4d85b0c079d/Scripts\python3.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:26.601] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\prettier\3.7.4-01d2dcd7bf7371cdfe40e4d85b0c079d/Scripts\python3 // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:26.601] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\prettier\3.7.4-01d2dcd7bf7371cdfe40e4d85b0c079d/Scripts\python3.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:26.601] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:26.601] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:26.601] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:26.754] [global] [info] [cache.cc:1117] [on-demand] [prettier:format:.trunk\trunk.yaml:HEAD] Linter ran in 1599ms
+[2025-12-16 17:31:26.986] [global] [info] [service.cc:528] [user-agent=cli/on-upgrade sid=8] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-12-16 17:31:26.987] [global] [info] [service.cc:607] [user-agent=cli/on-upgrade sid=8] RX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *)
+[2025-12-16 17:31:26.987] [global] [info] [service.cc:607] [user-agent=cli/on-upgrade sid=8] TX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *) status=OK
+[2025-12-16 17:31:26.988] [global] [info] [service.cc:607] [user-agent=cli/on-upgrade sid=8] RX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *)
+[2025-12-16 17:31:26.988] [global] [info] [service.cc:607] [user-agent=cli/on-upgrade sid=8] TX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *) status=OK
+[2025-12-16 17:31:26.988] [global] [info] [service.cc:256] lint session ended sid=8
+[2025-12-16 17:31:26.988] [global] [info] [service.cc:258] [user-agent=cli/on-upgrade sid=8] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:31:26.989] [global] [info] [service.cc:258] [user-agent=cli/on-upgrade sid=8] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:31:26.989] [global] [info] [service.cc:325] [user-agent=cli/on-upgrade sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-12-16 17:31:26.991] [global] [info] [service.cc:325] [user-agent=cli/on-upgrade sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-12-16 17:31:27.186] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-12-16 17:31:39.354] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:31:39.771] [global] [warning] [release.cc:142] Querying validated version from ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:31:39.773] [global] [info] [linter.cc:1078] Validated version for oxipng not provided, or bypassed. Using fallback
+[2025-12-16 17:31:39.773] [global] [info] [linter.cc:1078] Validated version for osv-scanner not provided, or bypassed. Using fallback
+[2025-12-16 17:31:39.773] [global] [info] [linter.cc:1078] Validated version for checkov not provided, or bypassed. Using fallback
+[2025-12-16 17:31:39.773] [global] [info] [linter.cc:1078] Validated version for markdownlint not provided, or bypassed. Using fallback
+[2025-12-16 17:31:39.775] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:39.775] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:39.775] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:39.894] [global] [warning] [release.cc:44] GitHub releases lookup failed for 'https://api.github.com/repos/trunk-io/plugins/releases' code:403 body:{"message":"API rate limit exceeded for 190.190.252.145. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2025-12-16 17:31:40.437] [global] [info] [linter.cc:1078] Validated version for trufflehog not provided, or bypassed. Using fallback
+[2025-12-16 17:31:43.108] [global] [info] [linter.cc:1078] Validated version for prettier not provided, or bypassed. Using fallback
+[2025-12-16 17:31:43.109] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:43.109] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:43.109] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:47.449] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:31:47.653] [global] [warning] [release.cc:142] Querying validated version from ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:31:47.654] [global] [info] [linter.cc:1078] Validated version for trufflehog not provided, or bypassed. Using fallback
+[2025-12-16 17:31:47.654] [global] [info] [linter.cc:1078] Validated version for oxipng not provided, or bypassed. Using fallback
+[2025-12-16 17:31:47.654] [global] [info] [linter.cc:1078] Validated version for checkov not provided, or bypassed. Using fallback
+[2025-12-16 17:31:47.654] [global] [info] [linter.cc:1078] Validated version for markdownlint not provided, or bypassed. Using fallback
+[2025-12-16 17:31:47.655] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:47.655] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:47.655] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:47.968] [global] [warning] [release.cc:44] GitHub releases lookup failed for 'https://api.github.com/repos/trunk-io/plugins/releases' code:403 body:{"message":"API rate limit exceeded for 190.190.252.145. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2025-12-16 17:31:48.016] [global] [info] [linter.cc:1078] Validated version for osv-scanner not provided, or bypassed. Using fallback
+[2025-12-16 17:31:49.260] [global] [info] [linter.cc:1078] Validated version for prettier not provided, or bypassed. Using fallback
+[2025-12-16 17:31:49.263] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:49.263] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:31:49.263] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\guido\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:El sistema no puede encontrar la ruta especificada.
+[2025-12-16 17:32:00.889] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:32:00.920] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:32:01.370] [global] [warning] [release.cc:44] GitHub releases lookup failed for 'https://api.github.com/repos/google/osv-scanner/releases' code:403 body:{"message":"API rate limit exceeded for 190.190.252.145. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2025-12-16 17:32:01.385] [global] [warning] [release.cc:44] GitHub releases lookup failed for 'https://api.github.com/repos/shssoichiro/oxipng/releases' code:403 body:{"message":"API rate limit exceeded for 190.190.252.145. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2025-12-16 17:32:01.565] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:32:02.086] [global] [warning] [release.cc:44] GitHub releases lookup failed for 'https://api.github.com/repos/trufflesecurity/trufflehog/releases' code:403 body:{"message":"API rate limit exceeded for 190.190.252.145. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2025-12-16 17:32:02.297] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-12-16 17:32:08.771] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:32:08.802] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:32:09.199] [global] [warning] [release.cc:76] Querying ReleaseVersionService failed with message Endpoint is deprecated
+[2025-12-16 17:32:09.261] [global] [warning] [release.cc:44] GitHub releases lookup failed for 'https://api.github.com/repos/trufflesecurity/trufflehog/releases' code:403 body:{"message":"API rate limit exceeded for 190.190.252.145. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2025-12-16 17:32:09.307] [global] [warning] [release.cc:44] GitHub releases lookup failed for 'https://api.github.com/repos/shssoichiro/oxipng/releases' code:403 body:{"message":"API rate limit exceeded for 190.190.252.145. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2025-12-16 17:32:09.674] [global] [warning] [release.cc:44] GitHub releases lookup failed for 'https://api.github.com/repos/google/osv-scanner/releases' code:403 body:{"message":"API rate limit exceeded for 190.190.252.145. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2025-12-16 17:32:09.887] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-12-16 17:46:25.440] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:46:25.449] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 17:51:26.040] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 17:51:26.067] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-12-16 18:10:11.056] [global] [info] [git_source_control.cc:517] Computing merge base between 20526243bd5a9fa86995d57ef3296f665e863ee7 and 2ade3df93bfcc8fcb9cd19c422d121bc2ba07f18
+[2025-12-16 18:10:11.073] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found

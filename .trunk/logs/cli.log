@@ -1,0 +1,39 @@
+[11-21 10:42:21] [client.cc:330] prettier - .trunk\trunk.yaml
+[11-21 11:48:05] [login.cc:52] GetUserRequest failed with status 16: No session provided 
+[11-22 10:49:15] [client.cc:19] GRPC Failed (error code UNAVAILABLE): failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:59783: WSAGetOverlappedResult: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+[11-22 10:49:15] [sentry.cc:364] Trunk Internal Error
+---
+trunk_cli_version: 1.25.0
+title: Internal trunk error occurred. Please report this issue to us @ https://slack.trunk.io
+report:
+  - "failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:59783: WSAGetOverlappedResult: Connection refused (No connection could be made because the target machine actively refused it.\r\n -- 10061)"
+[11-22 10:49:20] [client.cc:19] GRPC Failed (error code UNAVAILABLE): failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:59783: WSAGetOverlappedResult: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+[11-22 10:49:20] [sentry.cc:364] Trunk Internal Error
+---
+trunk_cli_version: 1.25.0
+title: Internal trunk error occurred. Please report this issue to us @ https://slack.trunk.io
+report:
+  - "failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:59783: WSAGetOverlappedResult: Connection refused (No connection could be made because the target machine actively refused it.\r\n -- 10061)"
+[12-16 18:25:06] [login.cc:52] GetUserRequest failed with status 16: No session provided 
+[12-17 18:24:58] [login.cc:52] GetUserRequest failed with status 16: No session provided 
+[12-17 18:43:57] [upgrade.cc:225] Error during upgrade --notify: cli: 1 linter: 0 plugin: 0 runtime: 0
+[12-19 20:21:43] [login.cc:52] GetUserRequest failed with status 16: No session provided 
+[12-19 20:21:44] [login.cc:52] GetUserRequest failed with status 16: No session provided 
+[12-20 11:07:10] [client.cc:19] GRPC Failed (error code UNAVAILABLE): failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:64085: WSAGetOverlappedResult: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+[12-20 11:07:10] [sentry.cc:364] Trunk Internal Error
+---
+trunk_cli_version: 1.25.0
+title: Internal trunk error occurred. Please report this issue to us @ https://slack.trunk.io
+report:
+  - "failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:64085: WSAGetOverlappedResult: Connection refused (No connection could be made because the target machine actively refused it.\r\n -- 10061)"
+[12-20 11:07:15] [client.cc:19] GRPC Failed (error code UNAVAILABLE): failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:64085: WSAGetOverlappedResult: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)
+[12-20 11:07:15] [sentry.cc:364] Trunk Internal Error
+---
+trunk_cli_version: 1.25.0
+title: Internal trunk error occurred. Please report this issue to us @ https://slack.trunk.io
+report:
+  - "failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:64085: WSAGetOverlappedResult: Connection refused (No connection could be made because the target machine actively refused it.\r\n -- 10061)"
